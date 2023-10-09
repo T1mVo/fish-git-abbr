@@ -408,7 +408,7 @@ abbr -a git-svn-dcommit-push -f __git-svn-dcommit-push
 
 abbr -a gsr git svn rebase
 abbr -a gsw 'git switch'
-abbr -a gswc 'git switch create'
+abbr -a gswc 'git switch --create'
 
 function __gswd
     echo "git switch $(__git_develop_branch)"
